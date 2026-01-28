@@ -12,7 +12,7 @@ import {
   Typography,
 } from '@mui/material'
 import Grid from '@mui/material/GridLegacy'
-import { FaEnvelope, FaGithub, FaLinkedin, FaLocationDot, FaPhone } from 'react-icons/fa6'
+import { FaEnvelope } from 'react-icons/fa6'
 import { profile } from './data/profile'
 import { Section } from './components/Section'
 import { ProjectCard } from './components/ProjectCard'
