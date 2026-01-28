@@ -1,0 +1,16 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: radial-gradient(1200px 600px at 20% -10%, rgba(139, 92, 246, 0.22), transparent 60%),
+    radial-gradient(900px 500px at 90% 10%, rgba(34, 211, 238, 0.16), transparent 55%),
+    linear-gradient(180deg, #070a12 0%, #060814 35%, #050615 100%);
+}
+
+* {
+  box-sizing: border-box;
+}
