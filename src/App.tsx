@@ -209,7 +209,7 @@ function App() {
               
             </Stack>
             <Typography variant="caption" color="text.secondary">
-              {profile.email} • {profile.phone}
+              {profile.email}
             </Typography>
           </Stack>
         </Section>
