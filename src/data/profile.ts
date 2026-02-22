@@ -20,7 +20,7 @@ export type Experience = {
 
 export const profile = {
   name: 'Soniya Malviya',
-  headline: 'Full-stack developer focused on clean UX and scalable systems.',
+  headline: 'Full-Stack Developer and AI/ML Enthusiast building user-centric applications and scalable systems powered by LLMs, Retrieval-Augmented Generation (RAG), and modern ML pipelines.',
   
   email: 'soniya.04malviya@gmail.com',
   
@@ -38,7 +38,7 @@ export const profile = {
       school: 'Rishihood University, Sonipat, Haryana',
       degree: 'B.Tech in Computer Science & Artificial Intelligence',
       dates: 'Aug 2023 – Jul 2027',
-      gpa: '7.75 / 10',
+      gpa: '8.5 / 10',
     },
   ],
   skills: {
