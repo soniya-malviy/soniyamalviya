@@ -63,9 +63,10 @@ export const profile = {
         'Implemented PDF ingestion with smart chunking, embeddings, and semantic search',
         'Reduced hallucinations by grounding responses in retrieved document context',
         'Enabled citation-backed answers linked to original document pages',
+        'Backend deployed on AWS and frontend on Vercel'
       ],
       githubUrl: 'https://github.com/soniya-malviy/IntelliDocs',
-      demoUrl: 'https://intelli-docs-ten.vercel.app',
+      demoUrl: 'https://www.intellidoc.space/',
     },
     {
       name: 'CureConnect — Healthcare Appointment Platform',
@@ -87,6 +88,18 @@ export const profile = {
         'Gained hands-on understanding of transformer internals and sequence modeling',
       ],
       githubUrl: 'https://github.com/soniya-malviy/Train-GPT-2-Transformer-from-Scratch',
+    },
+    {
+      name: 'GrowOnline - Business Solution',
+      stack: ['Next.js' , 'TypeScript', 'Three.js', 'Nodemailer'],
+      bullets: [
+         'Full-Stack Web Platform (Next.js + TypeScript) – Built GrowOnline to deliver affordable, SEO-optimized websites for small local businesses with industry-specific templates and tiered pricing plans.',
+
+'Modern UI & Interactive Experience – Implemented smooth animations (Framer Motion), 3D visuals (Three.js), and responsive design using Tailwind CSS for an engaging user experience.',
+
+' End-to-End Business Solution – Integrated live contact system (Nodemailer), Google Business setup, WhatsApp integration, and client demo showcase — delivering complete digital growth solutions in 3–7 days.'
+      ],
+      demoUrl: 'https://growonline.online/',
     },
   ] satisfies Project[],
   experience: [
