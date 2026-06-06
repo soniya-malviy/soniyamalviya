@@ -30,7 +30,7 @@ export const profile = {
     { label: 'LeetCode', href: 'https://leetcode.com/u/soniyamalviya/' },
     {
       label: 'Resume',
-      href: '../public/Soniya_Malviya_Resume.pdf',
+      href: '../public/soniya_malviya_.pdf',
     },
   ] satisfies Link[],
   education: [
@@ -38,19 +38,19 @@ export const profile = {
       school: 'Rishihood University, Sonipat, Haryana',
       degree: 'B.Tech in Computer Science & Artificial Intelligence',
       dates: 'Aug 2023 – Jul 2027',
-      gpa: '8.5 / 10',
+      gpa: '8.01 / 10',
     },
   ],
   skills: {
     programming: ['Python', 'JavaScript', 'TypeScript'],
     frameworks: ['React.js', 'Next.js', 'Node.js', 'Express.js'],
-    backend: ['RESTful API Design', 'JWT Authentication'],
+    backend: ['RESTful API Design', 'JWT Authentication', 'MERN Stack'],
     databases: ['MongoDB', 'PostgreSQL', 'SQL'],
-    aiMl: ['Transformers', 'Attention Mechanisms', 'RAG Pipelines'],
-    tools: ['Git', 'GitHub', 'AWS (EC2, S3)', 'Linux'],
+    AIMl: ['Transformers', 'Attention Mechanisms', 'RAG Pipelines', 'Machine Learning Models', 'Vision Transformer'],
+    tools: ['Git', 'GitHub', 'AWS (EC2, S3)'],
+    CoodingAgents:['Codex CLI, Opencode CLI , Claude and more'],
     problemSolving: [
       'Solved 100+ Data Structures & Algorithms problems, SQL problems on LeetCode',
-      'Strong in Arrays, Strings, Trees, Graphs, Recursion, Dynamic Programming',
       'Comfortable analyzing and optimizing time and space complexity',
     ],
   },
@@ -66,7 +66,7 @@ export const profile = {
         'Backend deployed on AWS and frontend on Vercel'
       ],
       githubUrl: 'https://github.com/soniya-malviy/IntelliDocs',
-      demoUrl: 'https://www.intellidoc.space/',
+  
     },
     {
       name: 'CureConnect — Healthcare Appointment Platform',
@@ -89,18 +89,32 @@ export const profile = {
       ],
       githubUrl: 'https://github.com/soniya-malviy/Train-GPT-2-Transformer-from-Scratch',
     },
-    {
-      name: 'GrowOnline - Business Solution',
-      stack: ['Next.js' , 'TypeScript', 'Three.js', 'Nodemailer'],
+     {
+      name: 'ShopSmart AI — Multimodal RAG E-Commerce Product Assistant',
+      stack: ['Streamlit', 'FAISS (local)', 'sentence-transformers (all-MiniLM-L6-v2)', 'Python 3.9+', 'LLM'],
       bullets: [
-         'Full-Stack Web Platform (Next.js + TypeScript) – Built GrowOnline to deliver affordable, SEO-optimized websites for small local businesses with industry-specific templates and tiered pricing plans.',
-
-'Modern UI & Interactive Experience – Implemented smooth animations (Framer Motion), 3D visuals (Three.js), and responsive design using Tailwind CSS for an engaging user experience.',
-
-' End-to-End Business Solution – Integrated live contact system (Nodemailer), Google Business setup, WhatsApp integration, and client demo showcase — delivering complete digital growth solutions in 3–7 days.'
+        'An AI-powered shopping assistant that combines Vision AI, Vector Search, and LLM',
+        'to answer product queries with rich, contextual responses. ',
+        'Upload a product image, ask a question, and get intelligent recommendations.',
       ],
-      demoUrl: 'https://growonline.online/',
+      githubUrl: 'https://github.com/soniya-malviy/ShopSmart-AI',
+      demoUrl: 'https://shopsmart-ai-d3cpi8sjagcm3adbwtmyru.streamlit.app/',
     },
+     {
+      name: 'GRAVITY - GraphQL Data Completeness Visualizer',
+      stack: [
+        'Frontend: React 18 + Vite + TypeScript + Tailwind CSS + D3.js',
+'Backend: Node.js + Express (Proxy & AI Routes',
+'AI Layer: Groq API (Schema Analysis, Anomaly Detection, NL Query)',
+'State: Zustand'
+      ],
+      bullets: [
+        'A configuration-driven web application that visualizes data completeness across GraphQL datasets using an interactive D3.js heatmap, powered by an agentic AI layer.'
+      ],
+      githubUrl: 'https://github.com/soniya-malviy/Gravity-',
+      demoUrl: 'https://gravity-frontend-one.vercel.app/',
+    },
+    
   ] satisfies Project[],
   experience: [
     {
@@ -116,11 +130,15 @@ export const profile = {
       demoUrl: 'https://empowerhub.info/'
     },
     {
-      title: 'Mentor',
-      org: 'GirlScript Summer of Code',
+      title: 'Open Source Contributor',
+      org: 'JupyterLab, OpenStreetMap, GSSoC',
       location: 'Remote',
-      dates: 'Oct 2024 – Nov 2024',
-      bullets: ['Mentored contributors and reviewed code for quality and scalability'],
+      dates: 'Oct 2024 – Present',
+      bullets: ['Merged 15+ Pull Requests during GSSoC and across JupyterLab and OpenStreetMap, enhancing developer tooling and platform usability',
+        'Developed UI components, improved documentation, and resolved bugs in AI/data science tooling',
+        'Tech: TypeScript, Python, React, JupyterLab Extensions, Git'
+      ],
+      demoUrl:"https://docs.google.com/document/d/1IQBpDrqBh0iieHKpgRVIc4-iI6xsSJEagniSx-p_Cgk/edit?tab=t.0"
     },
   ] satisfies Experience[],
   certifications: [

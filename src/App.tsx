@@ -131,8 +131,9 @@ function App() {
               { label: 'Frameworks', items: profile.skills.frameworks },
               { label: 'Backend', items: profile.skills.backend },
               { label: 'Databases', items: profile.skills.databases },
-              { label: 'AI / ML', items: profile.skills.aiMl },
+              { label: 'AI / ML', items: profile.skills.AIMl },
               { label: 'Tools', items: profile.skills.tools },
+              { label: 'Coding Agents', items: profile.skills.CoodingAgents },
             ].map((group) => (
               <Grid key={group.label} item xs={12} md={6}>
                 <Typography variant="subtitle2" sx={{ fontWeight: 800, mb: 1 }}>
