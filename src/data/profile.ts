@@ -19,6 +19,7 @@ export type Experience = {
   dates: string
   bullets: string[]
   demoUrl?: string
+  icon?: string
 }
 
 export const profile = {
@@ -187,6 +188,7 @@ export const profile = {
         'Integrated frontend and backend for smooth data flow and user experience',
       ],
       demoUrl: 'https://empowerhub.info/',
+      icon: 'university',
     },
     {
       title: 'Open Source Contributor',
@@ -200,6 +202,18 @@ export const profile = {
       ],
       demoUrl:
         'https://docs.google.com/document/d/1IQBpDrqBh0iieHKpgRVIc4-iI6xsSJEagniSx-p_Cgk/edit?tab=t.0',
+      icon: 'github',
+    },
+    {
+      title: 'Data For Common Good (PCDC)',
+      org: 'Part Time',
+      dates: 'Jun 2026 – Present',
+      bullets: [
+        'Contributing to SMART on FHIR-based EHR management platform enabling patients to securely access and share health records with external providers',
+        'Implemented WCAG 2.1 AA accessibility improvements, reducing UI navigation barriers by 40% in usability testing',
+        'Tech: JavaScript, React, Node.js, SMART on FHIR, Healthcare APIs',
+      ],
+      icon: 'heartbeat',
     },
   ] satisfies Experience[],
   certifications: [
