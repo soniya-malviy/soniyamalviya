@@ -8,7 +8,7 @@ export type Project = {
   githubUrl?: string
   demoUrl?: string
   gradient: string
-  
+  icon?: string
   image?: string
 }
 

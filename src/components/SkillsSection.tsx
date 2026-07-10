@@ -54,13 +54,13 @@ const groupIcons: Record<string, React.ReactNode> = {
 }
 
 const groups = [
-  { label: 'Programming', items: profile.skills.programming },
-  { label: 'Frameworks', items: profile.skills.frameworks },
-  { label: 'Backend', items: profile.skills.backend },
-  { label: 'Databases', items: profile.skills.databases },
-  { label: 'AI / ML', items: profile.skills.AIMl },
-  { label: 'Tools', items: profile.skills.tools },
-  { label: 'Coding Agents', items: profile.skills.CoodingAgents },
+  { label: 'Programming', items: [...profile.skills.programming] },
+  { label: 'Frameworks', items: [...profile.skills.frameworks] },
+  { label: 'Backend', items: [...profile.skills.backend] },
+  { label: 'Databases', items: [...profile.skills.databases] },
+  { label: 'AI / ML', items: [...profile.skills.AIMl] },
+  { label: 'Tools', items: [...profile.skills.tools] },
+  { label: 'Coding Agents', items: [...profile.skills.CoodingAgents] },
 ]
 
 function SkillPill({ text }: { text: string }) {
