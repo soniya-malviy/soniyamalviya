@@ -34,7 +34,7 @@ export const profile = {
     { label: 'LeetCode', href: 'https://leetcode.com/u/soniyamalviya/' },
     {
       label: 'Resume',
-      href: '../public/soniya_malviya_.pdf',
+      href: 'https://drive.google.com/file/d/1MFoc3atRFbFut_QusslShBU5lIoBDKJE/view?usp=sharing',
     },
   ] satisfies Link[],
   education: [
