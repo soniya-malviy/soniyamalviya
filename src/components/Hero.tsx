@@ -41,7 +41,7 @@ export function Hero() {
       >
         <Box
           component="video"
-          src="/assets/backgound.mp4"
+          src="https://xb8iarv25csjpbep.public.blob.vercel-storage.com/home.mp4"
           autoPlay
           loop
           muted

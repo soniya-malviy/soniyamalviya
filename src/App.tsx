@@ -208,7 +208,7 @@ function App() {
           >
             <Box
               component="video"
-              src="/assets/contact.mp4"
+              src="https://xb8iarv25csjpbep.public.blob.vercel-storage.com/contact.mp4"
               autoPlay
               loop
               muted
